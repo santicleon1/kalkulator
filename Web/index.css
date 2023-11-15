@@ -1,35 +1,68 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #37306B;
-    color: #D27685;
+    background-color: #111111;
+    color: white;
+    margin: 0;
 }
 
-#hbg {
-    width: 350px;
-    height: 100px;
-    z-index: -1;
+h1 {
+    width: fit-content;
+    text-align: center;
+    background-color: #202020;
+    padding: 25px;
     position: absolute;
+    top: 58px;
     left: 0;
     right: 0;
-    top: 58px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #66347F;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
+#spacer {
+    width: 100%;
+    height: 200px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
 
-h1, h2 {
-    text-align: center;
+#chat1 {
+    font-size: x-large;
+    background-color: #202020;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: 8px;
+    margin-top: 50px;
+    padding: 16px;
+    border-radius: 16px;
+    border-bottom-right-radius: 0;
+}
+
+#chat2 {
+    font-size: x-large;
+    background-color: #202020;
+    max-width: fit-content;
+    margin-left: 8px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding: 16px;
+    border-radius: 16px;
+    border-bottom-left-radius: 0;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
+    top: 0;
+    left: 16px;
+    right: 16px;
+    background-color: #202020;
+    border-radius: 16px;
+    position: fixed;
     padding: 0;
-    overflow: hidden;
-    background-color: #66347F;
-    border-radius: 8px;
 }
 
 li {
@@ -42,11 +75,12 @@ li a {
     text-align: center;
     padding: 8px;
     text-decoration: none;
+    border-radius: 16px;
 }
 
 
 li a:hover {
-    background-color: #9E4784;
+    background-color: #2f2f2f;
 }
 
 footer {
@@ -57,6 +91,6 @@ footer {
     left: 0;
     padding: 8px;
     text-align: center;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
