@@ -113,6 +113,10 @@ li#nav a:hover {
     background-color: #202020;
 }
 
+#ans {
+    display: none;
+}
+
 footer {
     background-color: black;
     position: absolute;
